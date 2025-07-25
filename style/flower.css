@@ -1,0 +1,79 @@
+
+
+/* header section */
+
+.icons .fa-light fa-cart-shopping{
+    color: black;
+}
+.icons .ul-hide{
+    display: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100vw;
+    margin: 5px 80px;
+}
+.logo img{
+    max-height: 70px;
+}
+.icons ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+
+}
+.icons ul li:first-child a{
+    color: black;
+    
+}
+.icons ul li:last-child a{
+    color: black;
+    
+}
+
+.icons ul li a{
+    text-decoration: none;
+    color: #8987A1;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+/* banner section */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 100vw;
+    margin: 60px 80px;
+}
+.banner .text-content{
+    max-width: 50%;
+}
+
+.banner .text-content h2, .red-span{
+    font-size: 50px;
+    font-weight: bold;
+    color: var(--primaryColorRed);
+    margin: 5px 0;
+}
+.banner .text-content .black-h2 {
+    color: black;
+}
+
+.banner .text-content p{
+    font-size: 22px;
+    color: var(--color-Gray);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.banner .img {
+    max-width: 50%;
+    
+    
+}
+.banner .img img{
+    width: 100%;
+}
