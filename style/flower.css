@@ -134,11 +134,11 @@ nav{
 
 .plant-bottun{
     font-size: 15px;
-  color: white;
-  background-color: #E95A08;
-  border: none;
-  padding: 20px 90px;
-  margin-bottom: 40px;
+    color: white;
+    background-color: #E95A08;
+    border: none;
+    padding: 20px 90px;
+    margin-bottom: 40px;
 }
 
 .plant-container-div{
@@ -153,6 +153,54 @@ nav{
     width: 80%;
 }
 
+/*  lover section */
+
+.lover-container {
+    max-width: 100vw;
+    margin: 200px 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.lover-container .img {
+    background: url(../assets/flower-store.png);
+    background-repeat: no-repeat;
+
+    width: 540px;
+    height: 597px;
+    position: relative;
+
+}
+
+.lover-container .img img {
+    height: 286px;
+    position: absolute;
+    top: -140px;
+    right: -130px;
+    filter: drop-shadow(-4px 10px 4px gray);
+
+}
+
+.des-cont {
+    max-width: 50%;
+    height: auto;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+.des-cont h2 {
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: -29px;
+}
+
+.lover-container ul li {
+    font-size: 35px;
+    color: var(--color-Gray);
+    margin: 20px 0;
+}
 
 
 
@@ -165,7 +213,6 @@ nav{
         margin: 0 20px;
         align-items: center;
     }
-
 
     .icon .unhide-ul {
         display: none;
@@ -232,6 +279,46 @@ nav{
         padding: 8px 40px;
         margin-bottom: 20px;
     }
+
+    /*  Lover section */
+
+    .lover-container .img img {
+        display: none;
+    }
+
+    .lover-container {
+        flex-direction: column;
+        margin: 40px 20px;
+    }
+
+    .des-cont {
+        max-width: 100%;
+        padding: 0;
+
+        margin: 30px 0 0 0;
+    }
+
+    .des-cont ul li {
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .des-cont h2 {
+        font-size: 24px;
+        display: inline;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .lover-container .des-cont p {
+        font-size: 14px;
+    }
+
+    .lover-container .img {
+        width: 100%;
+
+    }
+
 
 
 }
